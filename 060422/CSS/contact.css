@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+
+input {
+    width: 100%;
+    border: 2px solid orange;
+    background-color: gray;
+    cursor: pointer;
+}
+
+form {
+    display: inline-block;
+}

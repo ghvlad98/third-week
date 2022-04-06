@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+    background-color: blue;
+    margin: 26px;
+}
+
+.first-div {
+    color: magenta;
+}
+
+.second-div {
+    color: cyan;
+}
+
+.first-div h1 {
+    color: red;
+}
+
+.second-div h1 {
+    color: rgb(23, 238, 59);
+}

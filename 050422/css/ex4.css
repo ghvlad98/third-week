@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: orange;
+}
+
+table,
+td {
+    width: 400px;
+    height: 70px;
+    border: 5px solid;
+    border-color: black;
+    text-align: center;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li,
+a {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    float: right;
+}
