@@ -62,3 +62,5 @@ class Logger {
 const L = new Logger()
 L.data = new Date('2022', '04', '06')
 L.info(L.data.getDate)
+
+class Utils {}

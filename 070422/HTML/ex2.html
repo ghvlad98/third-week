@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ex2</title>
+    <script type="text/javascript" src="../JS/ex2.js"></script>
+    <link rel="stylesheet" href="../CSS/ex2.css" type="text/css" />
+</head>
+
+<body>
+    <form method="get">
+        <div>
+            Cognome: <input type="text" maxlength="40" name="cognome" required>
+        </div>
+        <div>
+            Nome: <input type="text" maxlength="30" name="nome" required>
+        </div>
+        <div>
+            Matricola: <input type="number" minlength="0" maxlength="1234567" pattern="[0-9]">
+        </div>
+        <div>
+            Regione di residenza:
+            <select name="regione" required>
+            <option value="Lombardia">Lombardia</option>
+            <option value="Lazio">Lazio</option>
+            <option value="Campania">Campania</option>
+            <option value="Veneto">Veneto</option>
+            <option value="Sicilia">Sicilia</option>
+            <option value="Emilia-Romagna">Emilia-Romagna</option>
+            <option value="Piemonte">Piemonte</option>
+            <option value="Puglia">Puglia</option>
+            <option value="Toscana">Toscana</option>
+            <option value="Calabria">Calabria</option>
+            <option value="Sardegna">Sardegna</option>
+            <option value="Liguria">Liguria</option>
+            <option value="Marche">Marche</option>
+            <option value="Abruzzo">Abruzzo</option>
+            <option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</option>
+            <option value="Trentino-Alto Adige">Trentino-Alto Adige</option>
+            <option value="Umbria">Umbria</option>
+            <option value="Basilicata">Basilicata</option>
+            <option value="Molise">Molise</option>
+            <option value="Valle d'Aosta">Valle d'Aosta</option></select>
+        </div>
+        <div>
+            Email: <input type="email" name="email" maxlength="30">
+        </div>
+        <div>
+            Telefono: <input type="tel" name="tel" maxlength="16" pattern="[0-9]">
+        </div>
+        <div>
+            Status: <input type="text" list="list" autocomplete="on">
+            <datalist id="list">
+                <option value="In corso">
+                <option value="Fuori corso">
+                <option value="Ripetente">
+                <option value="Part-time">
+            </datalist>
+        </div>
+        <div>
+            Richieste particolari: <textarea name="richieste" rows="12" cols="60"></textarea>
+        </div>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    </form>
+</body>
+
+</html>
