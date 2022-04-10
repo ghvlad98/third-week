@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var type2_1 = require("./type2");
+var type2_2 = require("./type2");
+var type2_3 = require("./type2");
+var m = new type2_1.SimpleMath();
+var f = new type2_2.RegularFigure();
+console.log(m.operation(f, type2_3.FIGURE.SQUARE));
+console.log(m.operation(f, type2_3.FIGURE.RECTANGLE));
+console.log(m.operation(f, type2_3.FIGURE.TRIANGLE));
